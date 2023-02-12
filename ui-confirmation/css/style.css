@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Hothir;
+    src: url(../public/fonts/Hothir.ttf);
+}
+@font-face {
+    font-family: Palatino;
+    src: url(../public/fonts/Palatino.ttc);
+}
+body{
+    font-size: 1.5em;
+    letter-spacing: 9px;
+    font-family: Palatino;
+    color:rgb(146, 154, 109) ;
+    border: 1px solid rgb(146, 154, 109);
+    box-shadow: 0 0 0 10px rgb(146, 154, 109);
+    margin: 50px;
+}
+#container{
+    border: 2px solid rgb(146, 154, 109);
+    padding: 40px;
+    margin: 28px;
+}
+header, section, form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#logo{
+    width: 21%;
+    margin: 0 auto;
+}
+#nombres{
+    width: 54%;
+    margin-top: 15px;
+}
+.bronze {
+    color:rgb(196, 126, 90) ;
+}
+#fecha{
+    font-size: 1.2em; 
+}
+#lugar{
+    font-size: 0.9em;
+}
+h3{
+    margin-top: 70px;
+}
+#invitacion{
+    letter-spacing: 5px;
+    width: 70%;
+    text-align: justify;
+    line-height: 30px;
+}
+#firma{
+    font-weight: bold;
+    margin:0px
+}
+#iniciales{
+    font-family: Hothir;
+    letter-spacing: 1px;
+    font-size: 1.7em;
+    margin-top: 85px;
+}
+#nota{
+    width: 605px;
+    text-align: center;
+    line-height: 37px;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+form {
+    gap: 10px;
+    margin-top: 28px;
+    font-size: 0.7em;
+}
+.fonsizeSiete{
+    font-size: 0.7em;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(146, 154, 109);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#musica{
+    margin-bottom: 24px;
+}
+input[type=radio]{
+    width: 64px;
+    margin-right: 38px;
+}
+#confirmacion, #ausencia{
+    width: 30px;
+    height: 30px;
+}
+.radio{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-weight: bold;
+}
+button{
+    background-color: #dfe5db;
+    border: none;
+    color: rgb(146, 154, 109);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 35px;
+    font-family: Palatino;
+    box-shadow: 5px 10px 8px #D9D9D9;
+    letter-spacing: 9px;
+}
+#importante{
+    width: 40%;
+    text-align: center;
+    margin-top: 46px;
+    letter-spacing: 3px;
+}
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#mesa-regalos{
+    font-family: Hothir;
+    font-size: 2em;
+}
+.boton-mesa{
+    width: 28%;
+    margin-bottom: 55px;
+}
+#cuenta{
+    background-color: rgb(146, 154, 109);
+    color: white;
+    margin: -40px;
+    box-shadow: 5px 10px 8px #D9D9D9;
+}
+footer{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+#faltan, #cuenta-regresiva{
+    font-weight: bold;
+}
+#etiquetas{
+    font-size: 0.7em;
+}
+#contactanos{
+    width: 28%;
+    margin-top: 105px;
+    align-self: center;
+}
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: rgb(146, 154, 109);
+}
+  
+a:hover {
+    text-decoration: none;
+}
+  
+a:active {
+    text-decoration: none;
+}

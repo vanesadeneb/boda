@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img id="logo" src="public/images/logo.jpeg" alt="logo">
+            <img id="nombres" src="public/images/tituloRow.jpg" alt="luciaymario">
+        </header>
+        <section>
+            <h2 id="fecha" class="bronze">SÁBADO 11 DE MARZO DEL 2023</h2>
+            <p class="bronze" id="lugar">HERMOSILLO, SONORA</p>
+            <h3 class="fonsizeSiete">FAMILIA Y AMIGOS,</h3>
+            <p id="invitacion" class="fonsizeSiete">QUEREMOS COMPARTIR NUESTRO MOMENTO INOLVIDABLE CON USTEDES. ESTE SITIO WEB FUE CREADO PARA CONFIRMAR SU ASISTENCIA Y ACLARAR TODAS SUS DUDAS. OJALA PUEDAN ACOMPAÑARNOS, SERÁ UNA NOCHE ESPECIAL E INOLVIDABLE.</p>
+            <p class="fonsizeSiete">CON AMOR,</p>
+            <p id="firma" class="fonsizeSiete">LUCIA Y MARIO</p>
+            <p id="iniciales">R.S.V.P</p>
+            <p id="nota" class="bronze">FAVOR DE REALIZAR SU CONFIRMACIÓN POR ESTE MEDIO:</p>
+
+            <form id="form">
+                <label for="nombre">NOMBRE COMPLETO:</label>
+                <input type="nombre" id="nombre" name="nombre">
+                <label for="acompanante">NOMBRE ACOMPAÑANTE:</label>
+                <input type="acompanante" id="acompanante" name="acompanante">
+                <label for="telefono">TELEFONO DE CONTACTO:</label>
+                <input type="tel" name="telefono" id="telefono">
+                <label for="musica">MÚSICA FAVORITA:</label>
+                <input type="text" name="musica" id="musica">
+                <div class="radio">
+                    <input type="radio" id="confirmacion" name="confirmacion" value="S">CONFIRMO MI PRESENCIA
+                </div>
+                <div class="radio">
+                    <input type="radio" id="ausencia" name="confirmacion" value="N">ESTAREMOS BRINDANDO A DISTANCIA
+                </div>
+                <p id="mensaje"></p>
+                <button id="enviar">ENVIAR CONFIRMACIÓN</button>
+            </form>
+            
+            <p id="importante" class="bronze">* FAVOR DE CONFIRMA ASISTENCIA ANTES DEL <span>10 DE FEBRERO</span></p>
+            <p id="mesa-regalos">Mesa de Regalos</p>
+            <button class="boton-mesa"><a href="https://www.amazon.com.mx" target="_blank">AMAZON</a></button>
+            <button class="boton-mesa"><a href="sobre.html" target="_blank">SOBRE</a></button>
+        </section>
+        <footer>
+            <section id="cuenta">
+                <p id="faltan">FALTAN</p>
+                <p id="cuenta-regresiva">00: 00: 00</p>
+                <p id="etiquetas">DIAS  H  MIN</p>
+            </section>
+            <button id="contactanos">CONTACTANOS</button>
+        </footer>
+    </div>
+    <script src="js/countDown.js"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

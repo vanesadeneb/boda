@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Palatino;
+  src: url(../public/fonts/Palatino.ttc);
+}
+body{
+    border: 1px solid rgb(146, 154, 109);
+    box-shadow: 0 0 0 10px rgb(146 154 109);
+    margin: 50px;
+}
+#container{
+    height: 543px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Palatino;
+    border: 2px solid rgb(146, 154, 109);
+    margin: 28px;
+
+}
+h1{
+  color: rgb(146, 154, 109) ;
+}
+#invitados {
+    font-family: Palatino;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  #invitados td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #invitados tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #invitados tr:hover {background-color: #ddd;}
+  
+  #invitados th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(196, 126, 90);
+    color: white;
+  }
+  #encabezados th{
+    text-align: center;
+  }
