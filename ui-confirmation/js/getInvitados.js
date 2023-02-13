@@ -1,7 +1,7 @@
 import config from "./config.js";
 
 const apiHost = config.api.host;
-const response = await fetch(`http://${apiHost}/invitados`);
+const response = await fetch(`/api/invitados`);
 let data = await response.json();
 
 const show = (data) => {
